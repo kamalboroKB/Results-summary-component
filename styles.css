@@ -61,17 +61,19 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Hanken Grotesk", sans-serif;
+    background-color: var(--PBlue)
 
 }
 
 
 
 .container{
-    background-color: hsl(221, 100%, 96%);
-    height: 100vh;
+    background-color: var(--PBlue);
+    min-height: 100vh;
     width: 100vw;
-    /* width: 1440px; */
-    /* margin-left: auto;
+    /* width: 1440px;
+    min-height: 100vh;
+    margin-left: auto;
     margin-right: auto; */
     display: flex;
     justify-content: center;
@@ -84,6 +86,11 @@ body{
     position: absolute;
     bottom: 0;
 }
+
+.attribution-mobile{
+   display: none;
+}
+
 
 .card-container{
     background-color: hsl(0, 0%, 100%);
@@ -239,6 +246,7 @@ body{
             align-items: normal;
             margin-left: auto;
             margin-right: auto;
+            min-height: 100vh;
             
             
 
@@ -315,6 +323,17 @@ body{
         .btnr{
             margin-top: 8px;
         }
+
+        .attribution{
+            display: none;
+        }
+
+        .attribution-mobile{
+            display:block;
+            font-size: 12px;
+            text-align: center;
+        }
+
 
 
 }
