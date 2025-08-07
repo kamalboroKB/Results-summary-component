@@ -26,8 +26,7 @@
 }
 
 .LRed{
-    color: var(--LRed);
-    
+    color: var(--LRed);    
 }
 
 .LRedA{
@@ -39,7 +38,6 @@
 }
 .OYellowA{
     background-color: var(--OYellowA);
-
 }
 
 .GTeal{
